@@ -1,0 +1,9 @@
+msal
+python-dotenv
+httpx
+
+numpy
+spacy
+
+fastapi
+"uvicorn[standard]"
