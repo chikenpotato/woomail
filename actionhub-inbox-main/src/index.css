@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 220 30% 98%;
+    --foreground: 222 47% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 18%;
+
+    --primary: 234 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 96%;
+    --secondary-foreground: 222 47% 18%;
+
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 234 85% 97%;
+    --accent-foreground: 234 85% 50%;
+
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 60% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 38 92% 15%;
+
+    --urgent: 4 90% 58%;
+    --urgent-foreground: 0 0% 100%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 234 85% 60%;
+
+    --radius: 0.75rem;
+
+    /* Category Colors - Vibrant but balanced */
+    --category-government: 234 70% 55%;
+    --category-finance: 152 55% 42%;
+    --category-bills: 38 85% 52%;
+    --category-healthcare: 340 70% 55%;
+    --category-education: 270 60% 55%;
+    --category-insurance: 200 70% 50%;
+    --category-employment: 24 80% 52%;
+    --category-misc: 220 20% 55%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 15% 40%;
+    --sidebar-primary: 234 85% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 234 85% 97%;
+    --sidebar-accent-foreground: 234 85% 50%;
+    --sidebar-border: 220 20% 92%;
+    --sidebar-ring: 234 85% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(234 85% 60%), hsl(270 70% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(234 85% 97%), hsl(270 60% 97%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 30% 98%));
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 12px -2px rgb(100 100 150 / 0.1), 0 2px 4px -2px rgb(100 100 150 / 0.06);
+    --shadow-lg: 0 12px 24px -4px rgb(100 100 150 / 0.12), 0 4px 8px -4px rgb(100 100 150 / 0.08);
+    --shadow-glow: 0 0 24px hsl(234 85% 60% / 0.15);
+    --shadow-card: 0 2px 8px -2px rgb(100 100 150 / 0.08), 0 0 0 1px rgb(100 100 150 / 0.05);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card border border-border rounded-xl;
+    box-shadow: var(--shadow-card);
+  }
+
+  .glass-card-elevated {
+    @apply bg-card border border-border rounded-xl;
+    box-shadow: var(--shadow-md);
+  }
+
+  .glow-primary {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .category-badge {
+    @apply px-2.5 py-1 rounded-full text-xs font-medium;
+  }
+
+  .task-card {
+    @apply p-4 rounded-xl bg-card border border-border transition-all duration-200;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .task-card:hover {
+    @apply border-primary/30;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .quick-action-btn {
+    @apply flex items-center gap-3 p-4 rounded-xl bg-card border border-border transition-all duration-200 cursor-pointer;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .quick-action-btn:hover {
+    @apply border-primary/30 bg-accent/50;
+    box-shadow: var(--shadow-md);
+  }
+
+  .countdown-badge {
+    @apply px-2 py-0.5 rounded-md text-xs font-mono font-medium;
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-muted-foreground transition-all duration-200;
+  }
+
+  .nav-item:hover {
+    @apply bg-accent text-accent-foreground;
+  }
+
+  .nav-item.active {
+    @apply bg-accent text-primary font-medium;
+  }
+
+  .btn-gradient {
+    background: var(--gradient-primary);
+    @apply text-white font-medium shadow-md hover:shadow-lg transition-all duration-200;
+  }
+
+  .btn-gradient:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.4s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.2s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slide-up {
+    from { 
+      opacity: 0; 
+      transform: translateY(10px); 
+    }
+    to { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes scale-in {
+    from { 
+      opacity: 0; 
+      transform: scale(0.95); 
+    }
+    to { 
+      opacity: 1; 
+      transform: scale(1); 
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .stagger-1 { animation-delay: 0.05s; }
+  .stagger-2 { animation-delay: 0.1s; }
+  .stagger-3 { animation-delay: 0.15s; }
+  .stagger-4 { animation-delay: 0.2s; }
+  .stagger-5 { animation-delay: 0.25s; }
+}

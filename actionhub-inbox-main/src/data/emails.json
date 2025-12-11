@@ -1,0 +1,542 @@
+[
+  {
+    "id": 0,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEMAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerk_wAAAA==",
+    "subject": "UOB Billing Statement Ready",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:40:34Z",
+    "analysis": {
+      "org": "UOB",
+      "email_type": "billing statement",
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": true,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [
+        "20 Jan 2025"
+      ],
+      "amounts": [
+        "$412.60"
+      ],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "UOB",
+          "label": "ORG"
+        },
+        {
+          "text": "billing statement",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "amount payable",
+          "label": "BILLING"
+        },
+        {
+          "text": "412.60",
+          "label": "MONEY"
+        },
+        {
+          "text": "20 Jan 2025",
+          "label": "DATE"
+        },
+        {
+          "text": "view statement",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "UOB",
+          "label": "ORG"
+        }
+      ],
+      "subject": "UOB Billing Statement Ready",
+      "category": "billing statement",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:40:34Z",
+      "preview": "Dear Customer,\r\n\r\nYour UOB billing statement is now available.\r\nTotal amount payable: $412.60.\r\nPayment due on 20 Jan 2025.\r\n\r\nClick here to view statement.\r\n\r\nUOB",
+      "isRead": false,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 1,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEJAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerdKAAAAA==",
+    "subject": "UOB Billing Statement Ready",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:40:28Z",
+    "analysis": {
+      "org": "UOB",
+      "email_type": "billing statement",
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": true,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [
+        "20 Jan 2025"
+      ],
+      "amounts": [
+        "$412.60"
+      ],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "UOB",
+          "label": "ORG"
+        },
+        {
+          "text": "billing statement",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "amount payable",
+          "label": "BILLING"
+        },
+        {
+          "text": "412.60",
+          "label": "MONEY"
+        },
+        {
+          "text": "20 Jan 2025",
+          "label": "DATE"
+        },
+        {
+          "text": "view statement",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "UOB",
+          "label": "ORG"
+        }
+      ],
+      "subject": "UOB Billing Statement Ready",
+      "category": "billing statement",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:40:28Z",
+      "preview": "Dear Customer,\r\n\r\nYour UOB billing statement is now available.\r\nTotal amount payable: $412.60.\r\nPayment due on 20 Jan 2025.\r\n\r\nClick here to view statement.\r\n\r\nUOB",
+      "isRead": true,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 2,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEMAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerk_gAAAA==",
+    "subject": "Verification Needed for Your OCBC Account",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:40:14Z",
+    "analysis": {
+      "org": "OCBC",
+      "email_type": null,
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": true,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "verify your identity",
+          "label": "VERIFICATION"
+        },
+        {
+          "text": "log in to",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "OCBC",
+          "label": "ORG"
+        },
+        {
+          "text": "OCBC",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Verification Needed for Your OCBC Account",
+      "category": "Uncategorized",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:40:14Z",
+      "preview": "Dear User,\r\n\r\nWe detected unusual activity and verification is needed to secure your account.\r\nPlease verify your identity to continue accessing your services.\r\n\r\nClick here to log in to your OCBC account.\r\n\r\nOCBC Bank",
+      "isRead": false,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 3,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEJAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerdJwAAAA==",
+    "subject": "Verification Needed for Your OCBC Account",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:40:07Z",
+    "analysis": {
+      "org": "OCBC",
+      "email_type": null,
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": true,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "verify your identity",
+          "label": "VERIFICATION"
+        },
+        {
+          "text": "log in to",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "OCBC",
+          "label": "ORG"
+        },
+        {
+          "text": "OCBC",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Verification Needed for Your OCBC Account",
+      "category": "Uncategorized",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:40:07Z",
+      "preview": "Dear User,\r\n\r\nWe detected unusual activity and verification is needed to secure your account.\r\nPlease verify your identity to continue accessing your services.\r\n\r\nClick here to log in to your OCBC account.\r\n\r\nOCBC Bank",
+      "isRead": true,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 4,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEMAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerk_QAAAA==",
+    "subject": "Contract Renewal Discussion",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:54Z",
+    "analysis": {
+      "org": "HR Department",
+      "email_type": "contract renewal",
+      "has_renewal": true,
+      "has_appointment": true,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [
+        "appointment"
+      ],
+      "raw_entities": [
+        {
+          "text": "contract renewal",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "expiring",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "consultation",
+          "label": "APPOINTMENT"
+        },
+        {
+          "text": "click here",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "appointment date",
+          "label": "APPOINTMENT"
+        },
+        {
+          "text": "HR Department",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Contract Renewal Discussion",
+      "category": "contract renewal",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:54Z",
+      "preview": "Hi,\r\n\r\nThis is a reminder regarding your upcoming contract renewal.\r\nYour employment contract is expiring soon, and HR would like to schedule a consultation to discuss the next steps.\r\n\r\nPlease click here to select an appointment date.\r\n\r\nHR Department",
+      "isRead": false,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 5,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEJAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerdJgAAAA==",
+    "subject": "Contract Renewal Discussion",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:47Z",
+    "analysis": {
+      "org": "HR Department",
+      "email_type": "contract renewal",
+      "has_renewal": true,
+      "has_appointment": true,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [
+        "appointment"
+      ],
+      "raw_entities": [
+        {
+          "text": "contract renewal",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "expiring",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "consultation",
+          "label": "APPOINTMENT"
+        },
+        {
+          "text": "click here",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "appointment date",
+          "label": "APPOINTMENT"
+        },
+        {
+          "text": "HR Department",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Contract Renewal Discussion",
+      "category": "contract renewal",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:47Z",
+      "preview": "Hi,\r\n\r\nThis is a reminder regarding your upcoming contract renewal.\r\nYour employment contract is expiring soon, and HR would like to schedule a consultation to discuss the next steps.\r\n\r\nPlease click here to select an appointment date.\r\n\r\nHR Department",
+      "isRead": true,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 6,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEMAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerk_AAAAA==",
+    "subject": "Your POSB E-Statement for January",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:34Z",
+    "analysis": {
+      "org": "POSB",
+      "email_type": "e-statement",
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "monthly",
+          "label": "DATE"
+        },
+        {
+          "text": "e-statement",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "log in to",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "access your account",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "view statement",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "POSB",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Your POSB E-Statement for January",
+      "category": "e-statement",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:34Z",
+      "preview": "Dear Customer,\r\n\r\nYour monthly e-statement is now available.\r\nPlease log in to access your account and view statement.\r\n\r\nPOSB",
+      "isRead": false,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 7,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEJAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerdJQAAAA==",
+    "subject": "Your POSB E-Statement for January",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:28Z",
+    "analysis": {
+      "org": "POSB",
+      "email_type": "e-statement",
+      "has_renewal": false,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": false,
+      "verification_needed": false,
+      "has_action_link": true,
+      "dates": [],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "monthly",
+          "label": "DATE"
+        },
+        {
+          "text": "e-statement",
+          "label": "EMAIL_TYPE"
+        },
+        {
+          "text": "log in to",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "access your account",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "view statement",
+          "label": "ACTION_LINK"
+        },
+        {
+          "text": "POSB",
+          "label": "ORG"
+        }
+      ],
+      "subject": "Your POSB E-Statement for January",
+      "category": "e-statement",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:28Z",
+      "preview": "Dear Customer,\r\n\r\nYour monthly e-statement is now available.\r\nPlease log in to access your account and view statement.\r\n\r\nPOSB",
+      "isRead": true,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 8,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEMAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerk9wAAAA==",
+    "subject": "License Renewal Reminder",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:17Z",
+    "analysis": {
+      "org": "Land Transport Authority",
+      "email_type": null,
+      "has_renewal": true,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": true,
+      "verification_needed": false,
+      "has_action_link": false,
+      "dates": [
+        "10 Apr 2025"
+      ],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "due for renewal",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "10 Apr 2025",
+          "label": "DATE"
+        },
+        {
+          "text": "required documents",
+          "label": "DOC_REQUIRED"
+        },
+        {
+          "text": "renewal",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "Land Transport Authority",
+          "label": "ORG"
+        }
+      ],
+      "subject": "License Renewal Reminder",
+      "category": "Uncategorized",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:17Z",
+      "preview": "Dear Applicant,\r\n\r\nYour vocational license is due for renewal and will expire on 10 Apr 2025.\r\nPlease submit the required documents to complete the renewal process.\r\n\r\nClick here to submit documents.\r\n\r\nRegards,\r\nLand Transport Authority",
+      "isRead": false,
+      "hasAttachments": false
+    }
+  },
+  {
+    "id": 9,
+    "graph_id": "AQMkADAwATM0MDAAMi05ZjFiLTBiZTktMDACLTAwCgBGAAAD-lDQkhFJbE2GwwM1xtFPJQcA0PkZrRfBqEWH8Qi6kGe6mgAAAgEJAAAA0PkZrRfBqEWH8Qi6kGe6mgAAAerdJAAAAA==",
+    "subject": "License Renewal Reminder",
+    "senderEmail": "projfong@outlook.com",
+    "receivedAt": "2025-12-10T14:39:10Z",
+    "analysis": {
+      "org": "Land Transport Authority",
+      "email_type": null,
+      "has_renewal": true,
+      "has_appointment": false,
+      "has_billing": false,
+      "docs_required": true,
+      "verification_needed": false,
+      "has_action_link": false,
+      "dates": [
+        "10 Apr 2025"
+      ],
+      "amounts": [],
+      "refs": [],
+      "raw_entities": [
+        {
+          "text": "due for renewal",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "10 Apr 2025",
+          "label": "DATE"
+        },
+        {
+          "text": "required documents",
+          "label": "DOC_REQUIRED"
+        },
+        {
+          "text": "renewal",
+          "label": "RENEWAL"
+        },
+        {
+          "text": "Land Transport Authority",
+          "label": "ORG"
+        }
+      ],
+      "subject": "License Renewal Reminder",
+      "category": "Uncategorized",
+      "senderEmail": "projfong@outlook.com",
+      "sender": "projfong",
+      "receivedAt": "2025-12-10T14:39:10Z",
+      "preview": "Dear Applicant,\r\n\r\nYour vocational license is due for renewal and will expire on 10 Apr 2025.\r\nPlease submit the required documents to complete the renewal process.\r\n\r\nClick here to submit documents.\r\n\r\nRegards,\r\nLand Transport Authority",
+      "isRead": true,
+      "hasAttachments": false
+    }
+  }
+]
